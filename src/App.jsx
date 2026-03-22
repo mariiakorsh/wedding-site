@@ -378,7 +378,7 @@ export default function WeddingInvitationSite() {
                 <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black/30 to-transparent rounded-b-[1.4rem]" />
 
                 {/* верхний текст */}
-                <div className="absolute top-4 md:top-0 left-0 right-0 text-center px-6">
+                <div className="absolute top-6 md:top-0 left-0 right-0 text-center px-6">
                   <h1 className="title-font text-5xl text-white drop-shadow-lg">
                     Илья и Маша
                   </h1>
@@ -435,8 +435,8 @@ export default function WeddingInvitationSite() {
               <div>
                 <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
                   <div className="flex items-center justify-center">
-                    <div className="inline-block bg-[#8A9A71]/20 rounded-full px-4 py-2">
-                      <div className="sketch-label text-[#5F664F] whitespace-nowrap">
+                    <div className="bg-[#8A9A71]/20 rounded-full px-4 py-2 max-w-[220px] w-full mx-auto">
+                      <div className="sketch-label text-[#5F664F] text-center">
                         Для настроения
                       </div>
                     </div>
