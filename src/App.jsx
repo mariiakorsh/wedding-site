@@ -246,10 +246,10 @@ export default function WeddingInvitationSite() {
                 <div className="absolute bottom-28 right-10 text-[#8e8b7a] opacity-70 micro-float-delay" style={{ ['--rot']: '7deg' }}>✦</div>
                 <div className="absolute inset-x-0 top-0 h-36 bg-[#d8c29a] origin-top shadow-sm" style={{ clipPath: 'polygon(0 0,100% 0,50% 100%)' }} />
                 <div className="absolute inset-x-8 top-8 h-20 rounded-[1.2rem] border border-[#d6c5a7]/70 opacity-60" />
-                <div className="absolute left-5 bottom-[185px] md:bottom-[165px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[-8deg] shadow-sm border border-white/40 micro-float" style={{ ['--rot']: '-8deg' }}>
+                <div className="absolute left-5 bottom-[145px] md:bottom-[165px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[-8deg] shadow-sm border border-white/40 micro-float" style={{ ['--rot']: '-8deg' }}>
                   <img src="/images/paris-normandy-watercolor.png" alt="" className="w-full h-full object-cover" />
                 </div>
-                <div className="absolute right-7 bottom-[185px] md:bottom-[170px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[7deg] shadow-sm border border-white/40 micro-float-delay" style={{ ['--rot']: '7deg' }}>
+                <div className="absolute right-7 bottom-[150px] md:bottom-[170px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[7deg] shadow-sm border border-white/40 micro-float-delay" style={{ ['--rot']: '7deg' }}>
                   <img src="/images/tenerife-watercolor.png" alt="" className="w-full h-full object-cover" />
                 </div>
 
@@ -416,10 +416,11 @@ export default function WeddingInvitationSite() {
             <div className="grid grid-cols-2 border-b border-[#EEE6D8]">
               <div className="border-r border-[#EEE6D8]">
                 <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
-                  <div className="flex items-center justify-center">
-                    <div className="bg-[#8A9A71]/20 rounded-full px-4 py-2 w-[150px] text-center">
-                      <div className="sketch-label text-[#5F664F]">Наша дата</div>
+                  <div className="text-center">
+                    <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] uppercase leading-7">
+                      НАША ДАТА
                     </div>
+                    <div className="w-12 h-[1px] bg-[#8A9A71]/40 mx-auto mt-2"></div>
                   </div>
 
                   <div className="flex items-center justify-center">
@@ -434,12 +435,11 @@ export default function WeddingInvitationSite() {
 
               <div>
                 <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
-                  <div className="flex items-center justify-center">
-                    <div className="bg-[#8A9A71]/20 rounded-full px-4 py-2 w-[150px] text-center">
-                      <div className="sketch-label text-[#5F664F] text-center">
-                        Для настроения
-                      </div>
+                  <div className="text-center">
+                    <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] uppercase leading-7">
+                      ДЛЯ НАСТРОЕНИЯ
                     </div>
+                    <div className="w-12 h-[1px] bg-[#8A9A71]/40 mx-auto mt-2"></div>
                   </div>
 
                   <div className="flex items-center justify-center">
@@ -463,8 +463,8 @@ export default function WeddingInvitationSite() {
 
             <div className="p-5">
               <div className="bg-[#8A9A71]/10 backdrop-blur-sm rounded-[1.4rem] px-4 py-5 shadow-sm border border-white/40">
-                <div className="sketch-label text-center text-base">
-                  Свадьба уже через
+                <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] text-center text-base">
+                  СВАДЬБА УЖЕ ЧЕРЕЗ
                 </div>
 
                 <div className="grid grid-cols-4 gap-3 mt-4 max-w-sm mx-auto">
