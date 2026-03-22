@@ -461,7 +461,7 @@ export default function WeddingInvitationSite() {
 
             <div className="p-5">
               <div className="bg-[#8A9A71]/10 backdrop-blur-sm rounded-[1.4rem] px-4 py-5 shadow-sm border border-white/40">
-                <div className="text-[#7A8168] font-medium text-[14px] text-center text-base">
+                <div className="text-[#7A8168] font-medium text-[12px] text-center text-base">
                   СВАДЬБА УЖЕ ЧЕРЕЗ
                 </div>
 
@@ -488,14 +488,14 @@ export default function WeddingInvitationSite() {
           </div>
         </section>
 
-        <div className="px-6 py-6 md:hidden">
+        <div className="px-6 py-10 md:hidden">
           <img
             src="/images/iceland-watercolor.png"
             alt=""
-            className="w-full max-w-[260px] mx-auto object-cover opacity-80"
+            className="w-full max-w-[320px] mx-auto object-cover opacity-85 rounded-[1.6rem] shadow-[0_10px_30px_rgba(0,0,0,0.08)]"
             style={{
-              maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
-              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 100%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 100%)',
             }}
           />
         </div>
