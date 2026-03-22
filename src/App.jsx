@@ -254,7 +254,7 @@ export default function WeddingInvitationSite() {
                 </div>
 
                 <div className="relative z-10 text-center px-8 pb-8">
-                  <div className="title-font text-5xl text-[#697256]">Илья & Маша</div>
+                  <div className="title-font text-5xl text-[#697256]">Илья & Мария</div>
                   <button
                     onClick={() => setOpened(true)}
                     className="body-font text-[#8C907E] mt-4 leading-7 shimmer-line inline-block px-3 py-2 rounded-full bg-white/40 backdrop-blur-[2px] border border-white/40 card-hover"
@@ -367,7 +367,7 @@ export default function WeddingInvitationSite() {
               <div className="relative">
                 <img
                   src="/images/hero-travel-watercolor.png"
-                  alt="Илья и Маша"
+                  alt="Илья и Мария"
                   className="w-full h-[420px] object-cover rounded-[1.4rem]"
                 />
 
@@ -380,7 +380,7 @@ export default function WeddingInvitationSite() {
                 {/* верхний текст */}
                 <div className="absolute top-8 md:top-0 left-0 right-0 text-center px-6">
                   <h1 className="title-font text-5xl text-white drop-shadow-lg">
-                    Илья и Маша
+                    Илья и Мария
                   </h1>
                 </div>
 
@@ -790,7 +790,7 @@ export default function WeddingInvitationSite() {
           </section>
 
           <footer className="pt-12 pb-10 text-center reveal" data-reveal>
-            <div className="title-font text-5xl text-[#6F775C]">Илья и Маша</div>
+            <div className="title-font text-5xl text-[#6F775C]">Илья и Мария</div>
             <p className="mt-3 text-[#9B9F8E]">4 июня 2026 · Yard Resort</p>
           </footer>
         </main>
