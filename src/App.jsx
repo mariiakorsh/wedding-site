@@ -415,12 +415,11 @@ export default function WeddingInvitationSite() {
 
             <div className="grid grid-cols-2 border-b border-[#EEE6D8]">
               <div className="border-r border-[#EEE6D8]">
-                <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
+                <div className="h-[190px] px-5 py-6 grid grid-rows-[34px_1fr] text-center">
                   <div className="flex items-center justify-center">
-                    <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] uppercase leading-7">
-                      НАША ДАТА
+                    <div className="text-[#7A8168] text-[14px] font-medium">
+                      Наша дата
                     </div>
-                    <div className="w-12 h-[1px] bg-[#8A9A71]/40 mx-auto mt-2"></div>
                   </div>
 
                   <div className="flex items-center justify-center">
@@ -434,12 +433,11 @@ export default function WeddingInvitationSite() {
               </div>
 
               <div>
-                <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
+                <div className="h-[190px] px-5 py-6 grid grid-rows-[34px_1fr] text-center">
                   <div className="flex items-center justify-center">
-                    <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] uppercase leading-7">
-                      ДЛЯ НАСТРОЕНИЯ
+                    <div className="text-[#7A8168] text-[14px] font-medium">
+                      Для настроения
                     </div>
-                    <div className="w-12 h-[1px] bg-[#8A9A71]/40 mx-auto mt-2"></div>
                   </div>
 
                   <div className="flex items-center justify-center">
@@ -463,7 +461,7 @@ export default function WeddingInvitationSite() {
 
             <div className="p-5">
               <div className="bg-[#8A9A71]/10 backdrop-blur-sm rounded-[1.4rem] px-4 py-5 shadow-sm border border-white/40">
-                <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] text-center text-base">
+                <div className="text-[#7A8168] font-medium text-[14px] text-center text-base">
                   СВАДЬБА УЖЕ ЧЕРЕЗ
                 </div>
 
