@@ -542,7 +542,7 @@ export default function WeddingInvitationSite() {
               <img
                 src="/images/paris-normandy-watercolor.png"
                 alt=""
-                className="w-full object-cover rounded-[1.4rem] opacity-90 ml-auto"
+                className="w-full object-cover rounded-[1.4rem] opacity-90 mx-auto"
               />
             </div>
           </div>
@@ -574,7 +574,7 @@ export default function WeddingInvitationSite() {
               <img
                 src="/images/morocco-watercolor.png"
                 alt=""
-                className="w-full object-cover rounded-[1.4rem] opacity-90 mr-auto"
+                className="w-full object-cover rounded-[1.4rem] opacity-90 mx-auto"
               />
             </div>
           </div>
@@ -642,7 +642,7 @@ export default function WeddingInvitationSite() {
               <img
                 src="/images/georgia-watercolor.png"
                 alt=""
-                className="w-full object-cover rounded-[1.4rem] opacity-90 mr-auto"
+                className="w-full object-cover rounded-[1.4rem] opacity-90 mx-auto"
               />
             </div>
           </div>
