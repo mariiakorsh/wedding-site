@@ -416,7 +416,7 @@ export default function WeddingInvitationSite() {
             <div className="grid grid-cols-2 border-b border-[#EEE6D8]">
               <div className="border-r border-[#EEE6D8]">
                 <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
-                  <div className="text-center">
+                  <div className="flex items-center justify-center">
                     <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] uppercase leading-7">
                       НАША ДАТА
                     </div>
@@ -435,7 +435,7 @@ export default function WeddingInvitationSite() {
 
               <div>
                 <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
-                  <div className="text-center">
+                  <div className="flex items-center justify-center">
                     <div className="text-[#798265] font-medium text-[13px] tracking-[0.25em] uppercase leading-7">
                       ДЛЯ НАСТРОЕНИЯ
                     </div>
