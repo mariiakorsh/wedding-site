@@ -246,10 +246,10 @@ export default function WeddingInvitationSite() {
                 <div className="absolute bottom-28 right-10 text-[#8e8b7a] opacity-70 micro-float-delay" style={{ ['--rot']: '7deg' }}>✦</div>
                 <div className="absolute inset-x-0 top-0 h-36 bg-[#d8c29a] origin-top shadow-sm" style={{ clipPath: 'polygon(0 0,100% 0,50% 100%)' }} />
                 <div className="absolute inset-x-8 top-8 h-20 rounded-[1.2rem] border border-[#d6c5a7]/70 opacity-60" />
-                <div className="absolute left-5 bottom-[165px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[-8deg] shadow-sm border border-white/40 micro-float" style={{ ['--rot']: '-8deg' }}>
+                <div className="absolute left-5 bottom-[185px] md:bottom-[165px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[-8deg] shadow-sm border border-white/40 micro-float" style={{ ['--rot']: '-8deg' }}>
                   <img src="/images/paris-normandy-watercolor.png" alt="" className="w-full h-full object-cover" />
                 </div>
-                <div className="absolute right-7 bottom-[170px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[7deg] shadow-sm border border-white/40 micro-float-delay" style={{ ['--rot']: '7deg' }}>
+                <div className="absolute right-7 bottom-[185px] md:bottom-[170px] w-16 h-16 rounded-[1.1rem] overflow-hidden opacity-55 rotate-[7deg] shadow-sm border border-white/40 micro-float-delay" style={{ ['--rot']: '7deg' }}>
                   <img src="/images/tenerife-watercolor.png" alt="" className="w-full h-full object-cover" />
                 </div>
 
