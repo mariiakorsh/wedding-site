@@ -484,6 +484,18 @@ export default function WeddingInvitationSite() {
           </div>
         </section>
 
+        <div className="px-6 py-6 md:hidden">
+          <img
+            src="/images/iceland-watercolor.png"
+            alt=""
+            className="w-full max-w-[260px] mx-auto object-cover opacity-80"
+            style={{
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+            }}
+          />
+        </div>
+
           <section className="py-10 reveal" data-reveal>
             <div className="postcard rounded-[2rem] bg-white/80 paper overflow-hidden relative">
               <div className="px-6 pt-7 pb-5 border-b border-[#EEE6D8] text-center relative z-10">
@@ -523,6 +535,18 @@ export default function WeddingInvitationSite() {
             </div>
           </section>
 
+          <div className="px-6 py-6 md:hidden">
+            <img
+              src="/images/paris-normandy-watercolor.png"
+              alt=""
+              className="w-full max-w-[260px] mx-auto object-cover opacity-80"
+              style={{
+                maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+              }}
+            />
+          </div>
+
           <section className="py-10 reveal" data-reveal>
             <div className="postcard rounded-[2rem] bg-white/80 paper overflow-hidden relative">
               <div className="px-6 pt-7 pb-5 border-b border-[#EEE6D8] text-center relative z-10">
@@ -545,9 +569,20 @@ export default function WeddingInvitationSite() {
             </div>
           </section>
 
+          <div className="px-6 py-6 md:hidden">
+            <img
+              src="/images/morocco-watercolor.png"
+              alt=""
+              className="w-full max-w-[260px] mx-auto object-cover opacity-80"
+              style={{
+                maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+              }}
+            />
+          </div>
+
           <section className="py-10 reveal" data-reveal>
             <div className="postcard rounded-[2rem] bg-white/80 paper overflow-hidden relative">
-              <img src="/images/morocco-watercolor.png" alt="" className="absolute top-6 -right-10 w-28 h-28 object-cover rounded-[2rem] opacity-14 blur-[1px] rotate-[7deg]" style={{ maskImage: 'radial-gradient(ellipse at center, black 0%, black 70%, transparent 95%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 70%, transparent 95%)' }} />
               <div className="px-6 pt-7 pb-5 border-b border-[#EEE6D8] text-center relative z-10">
                 <h2 className="title-font text-5xl text-[#6F775C] mt-2">Несколько деталей</h2>
               </div>
@@ -559,6 +594,18 @@ export default function WeddingInvitationSite() {
               </div>
             </div>
           </section>
+
+          <div className="px-6 py-6 md:hidden">
+            <img
+              src="/images/tenerife-watercolor.png"
+              alt=""
+              className="w-full max-w-[260px] mx-auto object-cover opacity-80"
+              style={{
+                maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+              }}
+            />
+          </div>
 
           <section className="py-10 reveal" data-reveal>
             <div className="postcard rounded-[2rem] bg-white/80 paper overflow-hidden relative">
@@ -593,6 +640,18 @@ export default function WeddingInvitationSite() {
               </div>
             </div>
           </section>
+
+          <div className="px-6 py-6 md:hidden">
+            <img
+              src="/images/georgia-watercolor.png"
+              alt=""
+              className="w-full max-w-[260px] mx-auto object-cover opacity-80"
+              style={{
+                maskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 65%, transparent 95%)',
+              }}
+            />
+          </div>
 
           <section className="py-10 reveal" data-reveal>
             <div className="postcard rounded-[2rem] bg-white/85 paper overflow-hidden relative">
