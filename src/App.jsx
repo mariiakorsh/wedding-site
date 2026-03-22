@@ -270,18 +270,93 @@ export default function WeddingInvitationSite() {
 
       <div className="relative overflow-hidden body-font">
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
-          <div className="absolute top-8 left-0 w-48 h-48 rounded-full bg-[#EAE6DB] blur-3xl opacity-70" style={{ transform: `translateY(${scrollY * 0.06}px)` }} />
-          <div className="absolute top-40 right-0 w-52 h-52 rounded-full bg-[#E5EFEF] blur-3xl opacity-60" style={{ transform: `translateY(${scrollY * 0.1}px)` }} />
-          <div className="absolute top-[75rem] left-[-2rem] w-56 h-56 rounded-full bg-[#F1E7DD] blur-3xl opacity-70" style={{ transform: `translateY(${scrollY * 0.08}px)` }} />
-          <div className="absolute top-[150rem] right-[-2rem] w-56 h-56 rounded-full bg-[#E6ECF4] blur-3xl opacity-70" style={{ transform: `translateY(${scrollY * 0.07}px)` }} />
+          <div
+            className="absolute top-8 left-0 w-48 h-48 rounded-full bg-[#EAE6DB] blur-3xl opacity-70"
+            style={{ transform: `translateY(${scrollY * 0.06}px)` }}
+          />
+          <div
+            className="absolute top-40 right-0 w-52 h-52 rounded-full bg-[#E5EFEF] blur-3xl opacity-60"
+            style={{ transform: `translateY(${scrollY * 0.1}px)` }}
+          />
+          <div
+            className="absolute top-[75rem] left-[-2rem] w-56 h-56 rounded-full bg-[#F1E7DD] blur-3xl opacity-70"
+            style={{ transform: `translateY(${scrollY * 0.08}px)` }}
+          />
+          <div
+            className="absolute top-[150rem] right-[-2rem] w-56 h-56 rounded-full bg-[#E6ECF4] blur-3xl opacity-70"
+            style={{ transform: `translateY(${scrollY * 0.07}px)` }}
+          />
 
-          <img src="/images/tenerife-watercolor.png" alt="" className="absolute top-[12rem] left-4 w-64 h-64 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.04}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
-          <img src="/images/paris-normandy-watercolor.png" alt="" className="absolute top-[28rem] right-4 w-60 h-60 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.03}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
-          <img src="/images/morocco-watercolor.png" alt="" className="absolute top-[55rem] right-6 w-72 h-72 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.05}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
-          <img src="/images/iceland-watercolor.png" alt="" className="absolute top-[85rem] left-6 w-72 h-72 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.04}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
-          <img src="/images/georgia-watercolor.png" alt="" className="absolute top-[120rem] right-8 w-60 h-60 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.045}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
-          <img src="/images/south-africa-watercolor.png" alt="" className="absolute top-[150rem] left-8 w-64 h-64 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.03}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
-          <img src="/images/portugal-watercolor.png" alt="" className="absolute top-[180rem] right-6 w-72 h-72 object-cover opacity-21 rounded-none" style={{ transform: `translateY(${scrollY * 0.05}px)`, maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)', WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)' }} />
+          <img
+            src="/images/tenerife-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[12rem] left-4 w-64 h-64 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.04}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
+          <img
+            src="/images/paris-normandy-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[28rem] right-4 w-60 h-60 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.03}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
+          <img
+            src="/images/morocco-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[55rem] right-6 w-72 h-72 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.05}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
+          <img
+            src="/images/iceland-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[85rem] left-6 w-72 h-72 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.04}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
+          <img
+            src="/images/georgia-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[120rem] right-8 w-60 h-60 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.045}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
+          <img
+            src="/images/south-africa-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[150rem] left-8 w-64 h-64 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.03}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
+          <img
+            src="/images/portugal-watercolor.png"
+            alt=""
+            className="hidden md:block absolute top-[180rem] right-6 w-72 h-72 object-cover opacity-21 rounded-none"
+            style={{
+              transform: `translateY(${scrollY * 0.05}px)`,
+              maskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+              WebkitMaskImage: 'radial-gradient(ellipse at center, black 0%, black 50%, transparent 85%)',
+            }}
+          />
         </div>
 
         <main className="relative z-10 mx-auto max-w-md px-5 pb-20 pt-8">
@@ -595,7 +670,7 @@ export default function WeddingInvitationSite() {
                     name="diet" 
                     value={formData.diet} 
                     onChange={handleFormChange}
-                    placeholder="Напишите ограничения, если есть"
+                    placeholder="(если есть)"
                     className="w-full h-12 rounded-full border border-[#DBD3C4] bg-[#FCFBF8] px-4 text-[#6F775C] placeholder-[#B0B0A0]" 
                   />
                 </div>
