@@ -378,7 +378,7 @@ export default function WeddingInvitationSite() {
                 <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-black/30 to-transparent rounded-b-[1.4rem]" />
 
                 {/* верхний текст */}
-                <div className="absolute top-0 left-0 right-0 text-center px-6">
+                <div className="absolute top-1 left-0 right-0 text-center px-6">
                   <h1 className="title-font text-5xl text-white drop-shadow-lg">
                     Илья и Маша
                   </h1>
@@ -407,41 +407,48 @@ export default function WeddingInvitationSite() {
 
             </div>
 
-            <div className="grid grid-cols-[0.8fr_1.2fr] gap-0 border-b border-[#EEE6D8] text-left">
-              <div className="p-5 border-r border-[#EEE6D8]">
-                <div className="inline-block bg-[#8A9A71]/20 rounded-full px-4 py-1 shadow-sm">
-                  <div className="sketch-label text-[#5F664F]">Наша дата</div>
-                </div>
-                <div className="title-font text-4xl text-[#6F775C] mt-3 leading-tight">
-                  4 июня
-                  <br />
-                  2026
+            <div className="grid grid-cols-2 border-b border-[#EEE6D8]">
+              <div className="border-r border-[#EEE6D8]">
+                <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
+                  <div className="flex items-center justify-center">
+                    <div className="inline-block bg-[#8A9A71]/20 rounded-full px-4 py-2">
+                      <div className="sketch-label text-[#5F664F]">Наша дата</div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center justify-center">
+                    <div className="title-font text-4xl text-[#6F775C] leading-tight">
+                      4 июня
+                      <br />
+                      2026
+                    </div>
+                  </div>
                 </div>
               </div>
 
-              <div className="p-5">
-                {/* Подложка только для label */}
-                <div className="inline-block bg-[#8A9A71]/20 rounded-full px-4 py-1 shadow-sm">
-                  <div className="sketch-label text-[#5F664F]">
-                    Музыка для настроения
-                  </div>
-                </div>
-
-                {/* Контент без подложки */}
-                <div className="mt-3 flex items-center gap-3">
-                  <button
-                    onClick={() => setMusicOn((v) => !v)}
-                    className="w-12 h-12 rounded-full bg-[#F6F1E7] shadow-sm border border-[#E8E1D3] text-[#6F775C] text-lg soft-pulse card-hover"
-                  >
-                    {musicOn ? "❚❚" : "▶"}
-                  </button>
-
-                  <div>
-                    <div className="text-[#6F775C] text-[15px] leading-6">
-                      Cosa Sei
+              <div>
+                <div className="h-[190px] px-5 py-5 grid grid-rows-[56px_1fr] text-center">
+                  <div className="flex items-center justify-center">
+                    <div className="inline-block bg-[#8A9A71]/20 rounded-full px-4 py-2">
+                      <div className="sketch-label text-[#5F664F] whitespace-nowrap">
+                        Для настроения
+                      </div>
                     </div>
-                    <div className="text-sm text-[#9B9F8E]">
-                      включить
+                  </div>
+
+                  <div className="flex items-center justify-center">
+                    <div className="flex items-center gap-3">
+                      <button
+                        onClick={() => setMusicOn((v) => !v)}
+                        className="w-12 h-12 rounded-full bg-[#F6F1E7] shadow-sm border border-[#E8E1D3] text-[#6F775C] text-lg soft-pulse card-hover"
+                      >
+                        {musicOn ? "❚❚" : "▶"}
+                      </button>
+
+                      <div className="text-left">
+                        <div className="text-[#6F775C] text-[15px] leading-6">Cosa Sei</div>
+                        <div className="text-sm text-[#9B9F8E]">включить</div>
+                      </div>
                     </div>
                   </div>
                 </div>
